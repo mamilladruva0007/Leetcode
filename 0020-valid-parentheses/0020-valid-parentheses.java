@@ -1,24 +1,31 @@
+
 class Solution {
     public boolean isValid(String s) {
-        int n = s.length();
-        char[] arr = new char[n];
-        int top = -1;
-        for (int i = 0; i < n; i++) {
+        Stack<Character> si = new Stack<>();
+
+        for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (c == '(' || c == '{' || c == '[') {
-                arr[++top] = c;
+
+
+            if (c == '(' || c == '[' || c == '{') {
+                si.push(c);
             } 
+           
             else {
-                if (top == -1){ 
-                    return false;
-                }
-                char open = arr[top--];
-                if ((c == ')' && open != '(') ||(c == '}' && open != '{') || (c == ']' && open != '[')) {
+                if (si.isEmpty()) return false;
+
+                char top = si.pop();
+
+                if ((c == ')' && top == '(') ||
+                    (c == ']' && top == '[') ||
+                    (c == '}' && top == '{')) {
+                        continue;
+                }else{
                     return false;
                 }
             }
         }
 
-        return top == -1;
+        return si.isEmpty();
     }
 }

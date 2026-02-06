@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mamilladruva0007/Leetcode/tree/master/0011-container-with-most-water) |
+| [0066-plus-one](https://github.com/mamilladruva0007/Leetcode/tree/master/0066-plus-one) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mamilladruva0007/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mamilladruva0007/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0219-contains-duplicate-ii](https://github.com/mamilladruva0007/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -60,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/mamilladruva0007/Leetcode/tree/master/0206-reverse-linked-list) |
+## Math
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/mamilladruva0007/Leetcode/tree/master/0066-plus-one) |
 <!---LeetCode Topics End-->
